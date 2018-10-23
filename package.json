@@ -1,0 +1,12 @@
+{
+  "name": "dashboards-app",
+  "version": "29.0.31",
+  "description": "DHIS2 Dashboards app",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "proxy": {
+    "/dhis-web-core-resource": {
+      "target": "http://localhost:8080"
+    }
+  }
+}
