@@ -1,0 +1,625 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./static/media/MaterialIcons-Regular.e79bfd88.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(./static/media/MaterialIcons-Regular.570eb838.woff2) format('woff2'),
+       url(./static/media/MaterialIcons-Regular.012cf6a1.woff) format('woff'),
+       url(./static/media/MaterialIcons-Regular.a37b0c01.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+[dir=ltr] .material-icons {
+  direction: ltr;
+}
+
+[dir=rtl] .material-icons {
+  direction: rtl;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 /* rtl:ignore */;
+    padding: 0 /* rtl:ignore */;
+    border: 0 /* rtl:ignore */;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+b,
+strong {
+    font-weight: bold;
+}
+i,
+em {
+    font-style: italic;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.d2-ui-control-bar-dragflap-icon {
+    visibility: hidden;
+}
+
+.left-controls {
+    font-size: 16px;
+    height: 36px;
+}
+
+[dir=ltr] .left-controls {
+    float: left;
+}
+
+[dir=rtl] .left-controls {
+    float: right;
+}
+
+[dir=ltr] .right-controls {
+    float: right;
+}
+
+[dir=rtl] .right-controls {
+    float: left;
+}
+
+/* headers */
+.dashboard-item-select h3 {
+    font-size: 15px;
+    color: #444;
+}
+[dir] .dashboard-item-select h3 {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+/* list items */
+.dashboard-item-select span p {
+    font-size: 15px;
+}
+
+/* buttons */
+.dashboard-item-select button {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+
+.dashboard-item-select button span {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #1565c0;
+}
+
+.d2ui-primary-button {
+    font-weight: 500;
+}[dir] .d2ui-primary-button {
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24),
+        0 0 8px 0 rgba(0, 0, 0, 0.12), 0 0 8px 0 rgba(0, 0, 0, 0.24);
+            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24),
+        0 0 8px 0 rgba(0, 0, 0, 0.12), 0 0 8px 0 rgba(0, 0, 0, 0.24);
+}
+
+[dir] .d2ui-primary-button.disabled {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.dashboard-title:focus {
+    color: #555;
+}
+
+.dashboard-description:focus {
+    color: #777;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[dir] .item-action-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.item-action-button:focus {
+    outline: 0;
+}
+
+.message-item {
+    height: 80px;
+    overflow: hidden;
+}[dir] .message-item {
+    border-bottom: 1px solid #eceff1;
+    padding-bottom: 10px;
+    margin: 0 5px 10px 5px;
+}
+
+[dir] .message-item.view:hover {
+    cursor: pointer;
+}
+
+.message-title {
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+[dir] .message-title {
+    margin: 0 0 5px 0;
+}
+
+.message-title.unread {
+    font-weight: bold;
+}
+
+.message-title.unread::before {
+    content: '●';
+    color: #48a999;
+    position: relative;
+    top: -1px;
+}
+
+[dir=ltr] .message-title.unread::before {
+    margin-right: 5px;
+}
+
+[dir=rtl] .message-title.unread::before {
+    margin-left: 5px;
+}
+
+.react-grid-layout {
+  position: relative;
+  -webkit-transition: height 200ms ease;
+  -o-transition: height 200ms ease;
+  transition: height 200ms ease;
+}
+.react-grid-item {
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+[dir=ltr] .react-grid-item {
+  -webkit-transition-property: left, top;
+  -o-transition-property: left, top;
+  transition-property: left, top;
+}
+[dir=rtl] .react-grid-item {
+  -webkit-transition-property: right, top;
+  -o-transition-property: right, top;
+  transition-property: right, top;
+}
+[dir] .react-grid-item.cssTransforms {
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.react-grid-item.resizing {
+  z-index: 1;
+  will-change: width, height;
+}
+
+.react-grid-item.react-draggable-dragging {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  z-index: 3;
+  will-change: transform;
+}
+
+.react-grid-item.react-grid-placeholder {
+  opacity: 0.2;
+  z-index: 2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+[dir] .react-grid-item.react-grid-placeholder {
+  background: red;
+  -webkit-transition-duration: 100ms;
+       -o-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.react-grid-item > .react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+}
+
+[dir=ltr] .react-grid-item > .react-resizable-handle {
+  right: 0;
+  cursor: se-resize;
+}
+
+[dir=rtl] .react-grid-item > .react-resizable-handle {
+  left: 0;
+  cursor: sw-resize;
+}
+
+.react-grid-item > .react-resizable-handle::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  width: 5px;
+  height: 5px;
+}
+
+[dir] .react-grid-item > .react-resizable-handle::after {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+[dir=ltr] .react-grid-item > .react-resizable-handle::after {
+  right: 3px;
+  border-right: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+[dir=rtl] .react-grid-item > .react-resizable-handle::after {
+  left: 3px;
+  border-left: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.react-resizable {
+  position: relative;
+}
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  background-origin: content-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+[dir] .react-resizable-handle {
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+  background-repeat: no-repeat;
+}
+[dir=ltr] .react-resizable-handle {
+  right: 0;
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+  cursor: se-resize;
+}
+[dir=rtl] .react-resizable-handle {
+  left: 0;
+  background-position: bottom left;
+  padding: 0 0 3px 3px;
+  cursor: sw-resize;
+}
+
+/* react-grid-layout style */
+
+.react-grid-item {
+    overflow: hidden !important;
+    min-height: 70px;
+    min-width: 70px;
+}
+
+[dir] .react-grid-item {
+    -webkit-box-shadow: 0px 0px 3px 0px #999999;
+            box-shadow: 0px 0px 3px 0px #999999;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.react-grid-item.edit,
+.react-grid-item.RESOURCES,
+.react-grid-item.TEXT,
+.react-grid-item.MESSAGES,
+.react-grid-item.APP {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+[dir] .react-grid-item.edit:hover {
+    cursor: move;
+}
+
+.react-grid-item.SPACER.view {
+    visibility: hidden;
+}
+
+[dir] .react-grid-item.SPACER.edit {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.react-grid-item.react-grid-placeholder {
+    opacity: 0.1;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+[dir] .react-grid-item.react-grid-placeholder {
+    background: #000;
+    -webkit-transition-duration: 150ms;
+         -o-transition-duration: 150ms;
+            transition-duration: 150ms;
+}
+
+/* react-resizable */
+
+[dir] .react-resizable-handle {
+    background: none;
+}
+
+/* dashboard item - header */
+
+.dashboard-item-header {
+    font-size: 15px;
+    font-weight: 700;
+    color: #3a3a3a;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 45px;
+}
+
+[dir=ltr] .dashboard-item-header {
+    padding: 0 4px 0 14px;
+}
+
+[dir=rtl] .dashboard-item-header {
+    padding: 0 14px 0 4px;
+}
+
+.dashboard-item-header-title {
+    -ms-flex: 1 1;
+        flex: 1 1;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+}
+
+[dir=ltr] .dashboard-item-header-title {
+    left: -1px;
+}
+
+[dir=rtl] .dashboard-item-header-title {
+    right: -1px;
+}
+
+/* dashboard item - content */
+
+.dashboard-item-content {
+    overflow: auto;
+}
+
+[dir] .dashboard-item-content {
+    margin: 0 4px 4px;
+}
+
+.react-grid-item.edit .dashboard-item-content,
+.react-grid-item.RESOURCES .dashboard-item-content,
+.react-grid-item.TEXT .dashboard-item-content,
+.react-grid-item.MESSAGES .dashboard-item-content,
+.react-grid-item.APP .dashboard-item-content {
+    -ms-flex: 1 1;
+        flex: 1 1;
+}
+
+.CHART.resizing .dashboard-item-content,
+.EVENT_CHART.resizing .dashboard-item-content {
+    overflow: hidden;
+}
+
+[dir] body {
+    background-color: #f4f6f8;
+}
+
+.app-wrapper {
+    font-family: Roboto;
+}
+
+.dashboard-header-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+[dir=ltr] .dashboard-header-bar {
+    left: 0;
+}
+
+[dir=rtl] .dashboard-header-bar {
+    right: 0;
+}
+
+[dir] .dashboard-wrapper {
+    background-color: #f4f6f8;
+}
+
+[dir=ltr] .dashboard-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+[dir=rtl] .dashboard-wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* plugin TODO */
+
+table.pivot * {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    -o-user-select: none !important;
+    user-select: none !important;
+}
+
+/* temporary workaround for headerbar */
+[dir] .secondary-light-bg {
+    background-color: #48a999;
+}
+
+body {
+    font-family: sans-serif;
+}[dir] body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*# sourceMappingURL=styles.ca456a31.css.map*/
