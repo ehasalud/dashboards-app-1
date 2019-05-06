@@ -1,0 +1,17 @@
+{
+  "main.css": "./static/css/main.dcc70a7f.chunk.css",
+  "main.js": "./static/js/main.5b2ff24b.chunk.js",
+  "main.js.map": "./static/js/main.5b2ff24b.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+  "static/css/2.583d06bc.chunk.css": "./static/css/2.583d06bc.chunk.css",
+  "static/js/2.2104c03b.chunk.js": "./static/js/2.2104c03b.chunk.js",
+  "static/js/2.2104c03b.chunk.js.map": "./static/js/2.2104c03b.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.d7ba65b97afc1974a2d1f97fe24a140a.js": "./precache-manifest.d7ba65b97afc1974a2d1f97fe24a140a.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/2.583d06bc.chunk.css.map": "./static/css/2.583d06bc.chunk.css.map",
+  "static/css/main.dcc70a7f.chunk.css.map": "./static/css/main.dcc70a7f.chunk.css.map",
+  "static/media/material-icons.css": "./static/media/MaterialIcons-Regular.e79bfd88.eot",
+  "static/media/index.css": "./static/media/roboto-latin-900italic.bc833e72.woff"
+}
