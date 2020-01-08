@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "./static/js/2.9ba954e5.chunk.js"
   },
   {
-    "revision": "987b84570ea69ee660455b8d5e91f5f1",
-    "url": "./static/media/roboto-latin-100.987b8457.woff2"
-  },
-  {
     "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
     "url": "./static/media/roboto-latin-100.e9dbbe8a.woff"
+  },
+  {
+    "revision": "987b84570ea69ee660455b8d5e91f5f1",
+    "url": "./static/media/roboto-latin-100.987b8457.woff2"
   },
   {
     "revision": "6232f43d15b0e7a0bf0fe82e295bdd06",
