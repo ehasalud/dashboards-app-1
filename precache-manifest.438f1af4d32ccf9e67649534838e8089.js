@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
-    "url": "./static/media/roboto-latin-400italic.9680d5a0.woff"
+    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
+    "url": "./static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "1c72d69f3f221867d612",
+    "revision": "a733d4f524b4d2dd356d",
     "url": "./static/css/main.069ed16f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.d653cc00.js"
   },
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "./static/media/roboto-latin-400.bafb105b.woff"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "./static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
     "revision": "604a638b0a26b3a4e28d",
@@ -56,12 +56,16 @@ self.__precacheManifest = [
     "url": "./static/media/roboto-latin-400.5d4aeb4e.woff2"
   },
   {
-    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
-    "url": "./static/media/roboto-latin-400italic.d8bcbe72.woff2"
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "./static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "1c72d69f3f221867d612",
-    "url": "./static/js/main.17021af8.chunk.js"
+    "revision": "a733d4f524b4d2dd356d",
+    "url": "./static/js/main.a0a4144f.chunk.js"
+  },
+  {
+    "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
+    "url": "./static/media/roboto-latin-400italic.9680d5a0.woff"
   },
   {
     "revision": "285467176f7fe6bb6a9c6873b3dad2cc",
@@ -108,15 +112,11 @@ self.__precacheManifest = [
     "url": "./static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "./static/media/roboto-latin-900italic.bc833e72.woff"
-  },
-  {
     "revision": "604a638b0a26b3a4e28d",
     "url": "./static/css/2.eb59c1a7.chunk.css"
   },
   {
-    "revision": "c0849e12ccf4885f70a346405baaf9bd",
+    "revision": "5aac8bccb51298d2349345042d42a415",
     "url": "./index.html"
   }
 ];
