@@ -1,0 +1,16 @@
+{
+  "main.css": "./static/css/main.23457c98.chunk.css",
+  "main.js": "./static/js/main.9162188a.chunk.js",
+  "main.js.map": "./static/js/main.9162188a.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+  "static/css/2.545a15fe.chunk.css": "./static/css/2.545a15fe.chunk.css",
+  "static/js/2.4b236307.chunk.js": "./static/js/2.4b236307.chunk.js",
+  "static/js/2.4b236307.chunk.js.map": "./static/js/2.4b236307.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.df721fdb13140ac8e0e20817fa8a6035.js": "./precache-manifest.df721fdb13140ac8e0e20817fa8a6035.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/2.545a15fe.chunk.css.map": "./static/css/2.545a15fe.chunk.css.map",
+  "static/css/main.23457c98.chunk.css.map": "./static/css/main.23457c98.chunk.css.map",
+  "static/media/index.css": "./static/media/roboto-latin-900italic.bc833e72.woff"
+}
