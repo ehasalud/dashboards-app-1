@@ -36,6 +36,10 @@ self.__precacheManifest = [
     "url": "./static/media/MaterialIcons-Regular.a37b0c01.ttf"
   },
   {
+    "revision": "987b84570ea69ee660455b8d5e91f5f1",
+    "url": "./static/media/roboto-latin-100.987b8457.woff2"
+  },
+  {
     "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
     "url": "./static/media/roboto-latin-100.e9dbbe8a.woff"
   },
@@ -50,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "55536c8e9e9a532651e3cf374f290ea3",
     "url": "./static/media/roboto-latin-300.55536c8e.woff2"
-  },
-  {
-    "revision": "987b84570ea69ee660455b8d5e91f5f1",
-    "url": "./static/media/roboto-latin-100.987b8457.woff2"
   },
   {
     "revision": "a1471d1d6431c893582a5f6a250db3f9",
