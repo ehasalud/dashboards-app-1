@@ -20,6 +20,10 @@ self.__precacheManifest = [
     "url": "./static/js/2.7c87862e.chunk.js"
   },
   {
+    "revision": "e79bfd88537def476913f3ed52f4f4b3",
+    "url": "./static/media/MaterialIcons-Regular.e79bfd88.eot"
+  },
+  {
     "revision": "570eb83859dc23dd0eec423a49e147fe",
     "url": "./static/media/MaterialIcons-Regular.570eb838.woff2"
   },
@@ -30,10 +34,6 @@ self.__precacheManifest = [
   {
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
     "url": "./static/media/MaterialIcons-Regular.a37b0c01.ttf"
-  },
-  {
-    "revision": "e79bfd88537def476913f3ed52f4f4b3",
-    "url": "./static/media/MaterialIcons-Regular.e79bfd88.eot"
   },
   {
     "revision": "987b84570ea69ee660455b8d5e91f5f1",
